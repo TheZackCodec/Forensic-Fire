@@ -1,4 +1,27 @@
 <?xml version="1.0"?>
 <directories>
-  <directory name="pngs" path="images/png" first_file_num="1" naming_scheme="forensic-test-file-png-" file_extention=".png" file_count="15" />
+
+  <directory name="[bmp]" path="images/bmp" first_file_num="1" naming_scheme="forensic-test-file-bmp-" file_extention=".bmp" file_count="729" />
+  <directory name="[jpeg]" path="images/jpeg" first_file_num="1" naming_scheme="forensic-test-image-" file_extention=".jpg" file_count="700" />
+  <directory name="[png]" path="images/png" first_file_num="1" naming_scheme="forensic-test-file-png-" file_extention=".png" file_count="55" />
+
+  <directory name="[flac]" path="sounds/flac" first_file_num="1" naming_scheme="forensic-test-file-flac-" file_extention=".flac" file_count="148" />
+  <directory name="[mp3]" path="sounds/mp3" first_file_num="1" naming_scheme="forensic-test-file-mp3-" file_extention=".mp3" file_count="177" />
+  <directory name="[ogg]" path="sounds/ogg" first_file_num="1" naming_scheme="forensic-test-file-ogg-" file_extention=".ogg" file_count="327" />
+  <directory name="[wav]" path="sounds/wav" first_file_num="1" naming_scheme="forensic-test-file-wav-" file_extention=".wav" file_count="13" />
+
+  <directory name="[avi]" path="Videos/avi" first_file_num="1" naming_scheme="forensic-test-file-avi-" file_extention=".avi" file_count="12" />
+  <directory name="[mkv]" path="Videos/mkv" first_file_num="1" naming_scheme="forensic-test-file-mkv-" file_extention=".mkv" file_count="20" />
+  <directory name="[mov]" path="Videos/mov" first_file_num="1" naming_scheme="forensic-test-file-mov-" file_extention=".MOV" file_count="198" />
+  <directory name="[mp4]" path="Videos/mp4" first_file_num="1" naming_scheme="forensic-test-file-mp4-" file_extention=".MP4" file_count="142" />
+  <directory name="[wmv]" path="Videos/wmv" first_file_num="1" naming_scheme="forensic-test-file-wmv-" file_extention=".wmv" file_count="39" />
+
+  <directory name="[docx]" path="Documents/docx" first_file_num="1" naming_scheme="forensic-test-file-docx-" file_extention=".docx" file_count="25" />
+  <directory name="[excel]" path="Documents/excel" first_file_num="1" naming_scheme="forensic-test-file-excel-" file_extention=".xls" file_count="5" />
+  <directory name="[pdf]" path="Documents/pdf" first_file_num="1" naming_scheme="forensic-test-file-pdf-" file_extention=".pdf" file_count="16" />
+  <directory name="[txt]" path="Documents/txt" first_file_num="1" naming_scheme="forensic-test-file-txt-" file_extention=".txt" file_count="29" />
+
+  <directory name="[tar]" path="archives/tar" first_file_num="1" naming_scheme="forensic-test-file-tar-" file_extention=".tar" file_count="10" />
+  <directory name="[zip]" path="archives/zip" first_file_num="1" naming_scheme="forensic-test-file-zip-" file_extention=".zip" file_count="10" />
+
 </directories>
