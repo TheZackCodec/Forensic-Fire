@@ -24,7 +24,7 @@ def main(Args, FeatureOption):
 
         for file in file_list:
             #returns what is inbetween the naming_scheme and file_extention then converts into an int
-            directory_file_numbers.append(int(re.search(directory.get('naming_scheme') + "(.*)" + directory.get('file_extention'), file).group(1)))
+            directory_file_numbers.append(int(find_between(file, directory.get('naming_scheme'), '.')))
 
         # Create a list of sequential integers that would correspond with all files if none were missing
         desired_file_numbers = list(range(file_num_start, int(directory.get('file_count'))+file_num_start))
@@ -36,6 +36,9 @@ def main(Args, FeatureOption):
             print(directory.get('name') + " is missing files", missing_files_list)
         else:
             print(directory.get('name') + " has all expected files")
+
+def find_between(string, start, end):
+  return ((string.split(start)[1]).split(end)[0])
 
 def ParseArgs():
     Args =  argparse.ArgumentParser(description="Detection of missing sequentially numbered files")
