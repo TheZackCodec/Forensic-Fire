@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<directories>
+  <directory name="pngs" path="images/png" first_file_num="1" naming_scheme="forensic-test-file-png-" file_extention=".png" file_count="15" />
+</directories>
